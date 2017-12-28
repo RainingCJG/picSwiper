@@ -1,0 +1,31 @@
+/*重置样式*/
+html,body,div,canvas,ul,li,img{
+	margin: 0;
+	padding: 0;
+}
+
+#cvs{
+	position: relative;
+	overflow: hidden;
+}
+
+.picList,
+.picList .item{
+	position: absolute;
+	height: 100%;
+	background-color: #333;
+	overflow: hidden;
+}
+
+.picList .item{
+	display: -webkit-box;
+	-webkit-box-pack: center; 
+			box-pack: center; 
+	-webkit-box-align: center;
+			box-align: center;
+}
+
+.item img{
+	max-width: 100%;
+	max-height: 100%;
+}
